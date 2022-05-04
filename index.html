@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You tube</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <nav class="flex-div">
+        <div class="nav-left flex-div">
+            <img src="menu.png" class="menu" onclick="onClick()">
+            <img src="logo.jpg" class="logo" >
+        </div>
+        <div class="nav-middle">
+            <div class="search-div">
+                <form id="submit">
+                    <input type="text" class="search" placeholder="Search">
+                    <img src="search.png" alt="" onclick="renderVideo()">
+                </form>
+            </div>
+        </div>
+        <div class="nav-right flex-div">
+            <div class="sign-in">
+                <button><img src=user.png> SIGN IN</button>
+            </div>
+        </div>
+   </nav> 
+
+   <div class="sidebar">
+        <div class="shortcut">
+            <a href="#"><img src="home.png"><p>Home</p></a>
+            <a href="#"><img src="explore.png"><p>Explore</p></a>
+            <a href="#"><img src="subscriptions.png"><p>Subscriptions</p></a>
+            <a href="#"><img src="library.png"><p>Library</p></a>
+            <a href="#"><img src="history.png"><p>History</p></a>
+            <a href="#"><img src="playlist.png"><p>Playlist</p></a>
+        </div>
+        <hr>
+        <div class="more shortcut">
+            <a href="#"><img src="settings.png"><p>Settings</p></a>
+            <a href="#"><img src="history.png"><p>Report </p></a>
+            <a href="#"><img src="help.png"><p>Help</p></a>
+            <a href="#"><img src="feedback.png"><p>Feedback</p></a>
+        </div>
+   </div>
+
+   
+
+   <table id="table">
+
+   </table>
+
+   <script src="script.js"></script>
+   <script src="https://unpkg.com/mustache@4.2.0/mustache.js"></script>
+</body>
+</html>
